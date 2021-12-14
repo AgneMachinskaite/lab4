@@ -1,0 +1,88 @@
+* {margin: 0;padding: 0}
+body{background-color: rgb(34,34,34);}
+
+nav{
+    width:100vw;
+    height: 5vh;
+    margin-top: 5vh;
+    display: flex;
+}
+
+.logo{
+    font-size: 25px;
+    cursor: pointer;
+    width: 5vw;
+    margin-left: 5vh;
+    color: whitesmoke;
+}
+
+ul{
+    width: 55vw;
+    height: 5vh;
+    text-align: center;
+    margin-left: 35vw;
+
+}
+
+ul li{
+    display: inline-block;
+    cursor: pointer;
+    font-size: 25px;
+    margin-right: 10vw;
+    margin-left: 2vw;
+    color: whitesmoke;
+}
+
+ul li:hover{
+    transition: 0.3s;
+    border-bottom: solid 1px white;
+}
+
+main{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+}
+
+img{
+    width: 50vw;
+    height: 80vh;
+    object-fit: cover;
+    margin-left: 4vw;
+}
+
+.media{
+    width: 40vw;
+}
+
+.h1{
+    font-size: 45px;
+    color:whitesmoke;
+    font-family: cursive;
+    margin-top: 110px;
+    text-shadow: 4px 4px 6px black;
+    text-align: center;
+}
+
+.btn-m{
+    margin-left: 30px;
+    font-family: cursive;
+    padding: 15px;
+    background: black;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: rgb(157, 255, 0);
+    cursor: pointer;
+    border: solid 1px black;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.btn-m:hover{
+    background-color :white ;
+    color: black;
+    transition: 0.5s;
+    border: solid 1px black;
+}
